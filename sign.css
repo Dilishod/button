@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300,400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+body{
+    width: 100%;
+    padding: 0 100px 0 100px;
+    height: 100vh;
+    background: #222;
+}
+
+.list{
+    width: 100%;
+    height: 50px;
+    background: #000;
+    margin: 0 auto;
+    display: flex;
+    border-radius: 10px;
+    gap: 20px;
+}
+.list a{
+    padding: 10px 3px;
+    width: 90px;
+    height: 50px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.3s ease-in;
+    background-color: #e6db0bad;
+    border-radius: 10px;
+}
+
+.git{
+    width: 1110px;
+    display: flex;
+    gap: 30px;
+    padding: 30px 0;
+}
+.git h2{
+    width: 45px;
+    height: 45px;
+    background-color: #f0e10f;
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 50%;
+    text-align: center;
+    padding:9px 5px;
+}
+.git input{
+    width: 1000px;
+    height: 40px;
+    background: #2d2c32;
+    padding: 10px;
+    border-radius: 8px;
+    
+    border: none;
+    outline: none;
+}
+.git svg{
+    color: #2d2c32;
+    margin: 7px 1px;
+}
+.hub{
+    display: flex;
+    margin:0 150px;
+    gap: 30px;
+    padding: 30px 0;
+    margin: 0 auto;
+}
+.hub h2{
+    width: 48px;
+    height: 48px;
+    background-color: #2d2c32;
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 50%;
+    text-align: center;
+    padding:9px 5px;
+    color: #fff;
+}
+.hub .nft{
+    width: 220px;
+    height: 80px;
+    display: flex;
+    background-color: #2d2c32;
+    gap: 10px; 
+    color: #fff;
+    padding: 6px;
+    border-radius: 8px;
+}
+.nft p{
+    color: #111;
+}
+.nft h3{
+    font-size: 18px;
+    font-weight: 550;
+} 
+
+.nft1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.dr{
+    color: #2d2c32;
+    font-size: 20px;
+}
+a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
